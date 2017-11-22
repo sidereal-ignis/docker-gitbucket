@@ -14,7 +14,5 @@ EXPOSE 8080 8022
 
 WORKDIR /opt/gitbucket
 
-ENTRYPOINT [ "java", "-jar", "gitbucket.war" ]
-
-CMD [ "--prefix=/gitbucket" ]
+CMD [ "java", "-jar", "gitbucket.war", "--prefix=/gitbucket" ]
 
