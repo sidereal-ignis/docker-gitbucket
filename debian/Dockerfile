@@ -1,6 +1,6 @@
 FROM sidereal/jre8
 
-ENV GITBUCKET_VER=4.25.0 GITBUCKET_HOME=/gitbucket
+ENV GITBUCKET_VER=4.26.0 GITBUCKET_HOME=/gitbucket
 
 RUN set -x  \
  && cd /opt \
